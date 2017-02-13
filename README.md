@@ -1,3 +1,13 @@
-# Web 2 Starter
+# Google Doodle
 
-Put information about your project here. 
+## Brainstorming Ideas
+
+*Walt Disney's Birthday
+
+
+## Research and Ideas
+
+*Links
+*Movies
+*Presentations
+*TED talks
