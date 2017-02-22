@@ -1,3 +1,28 @@
 // Grand Central Station
 @import 'google-homepage';
 
+// first frame
+
+img {
+    box-shadow: 4px 4px 4px red;
+    transform: scale(.25);
+    width:40%
+        
+    transition: transform .5s;    
+}
+
+// last frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5);
+    
+}
+
+.line{
+    fill:none;
+    stroke:#AAAAAA;
+    stroke-width: 30;
+    stroke-miterlimit: 10;
+    transition: stroke 1s;
+}
+
