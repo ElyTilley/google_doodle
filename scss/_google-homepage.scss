@@ -3,12 +3,12 @@
 /* Stage */
 
 #stage {
-  background: #ccc;
+  //background: #ccc;
   height: 300px;
   width: 600px;
   
   // Hide Overflowing Elements
-  // overflow: hidden;
+   overflow: hidden;
   
   // Relative Parent
   position: relative;
