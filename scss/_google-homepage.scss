@@ -3,14 +3,15 @@
 /* Stage */
 
 #stage {
-    background: gray;
-    height: 300px;
-    width: 600px;
-}
-
-#stage #star {
-    height: 100px;
-    width: 100px;
+  background: #ccc;
+  height: 300px;
+  width: 600px;
+  
+  // Hide Overflowing Elements
+   overflow: hidden;
+  
+  // Relative Parent
+  position: relative;
 }
 
 

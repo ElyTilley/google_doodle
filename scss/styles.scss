@@ -2,13 +2,96 @@
 
 @import 'google-homepage';
 
+// Letter Backgrounds
+$bg0: '../img/art_Deco.jpg';
+$bg1: '../img/banksy.jpg';
+$bg2: '../img/boccioni_Charge.jpg';
+$bg3: '../img/mediums.jpg';
+$bg4: '../img/mosaique.jpg';
+$bg5: '../img/stary_Night.jpg';
+
+// SVG FIRST FRAME
+svg{
+    transform: scale(1);
+    opacity: .2;
+    
+    transition:
+        opacity 1s,
+}
+// Google FIRST FRAMES
+#g {
+    fill:blue;
+    transition:
+        fill .5s,
+}
+
+#fo {
+    fill:red;
+    transition:
+        fill .5s,
+}
+
+#so {
+    fill:yellow;
+    transition:
+        fill .5s,
+}
+
+#sg {
+    fill:blue;
+    transition:
+        fill .5s,
+}
+
+#l {
+    fill:green;
+    transition:
+        fill .5s,
+}
+
+#e {
+    fill:red;
+    transition:
+        fill .5s,
+}
+
+// SVG LAST FRAME
+svg:hover {
+    opacity: 1;
+}
+
+// Google LAST FRAME
+#g:hover {
+    fill:black;
+}
+
+#fo:hover {
+    fill:black;
+}
+
+#so:hover {
+    fill:black;
+}
+
+#sg:hover {
+    fill:black;
+}
+
+#l:hover {
+    fill:black;
+}
+
+#e:hover {
+    fill:black;
+}
+
 
 // First Frame
 img {
     
     opacity: .5;
-    transform: scale(.25) rotate(0);
-    width: 40%;
+    transform: scale(1.2) rotate(0);
+    width: 100%;
     
     transition: transform .5s;
 }
@@ -16,7 +99,7 @@ img {
 // Last Frame
 img:hover {
     opacity: 1;
-    transform: scale(1.5) rotate(180deg);
+    transform: scale(1.2) rotate(0deg);
 }
 
 // First Frame

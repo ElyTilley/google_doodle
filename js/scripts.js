@@ -1,12 +1,15 @@
 // YOUR SCRIPTS GO HERE
 
-// Store 3 images
-var img0 = '../img/200.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/400.jpg';
+// Store images
+var img0 = '../img/art_Deco.jpg';
+var img1 = '../img/banksy.jpg';
+var img2 = '../img/boccioni_Charge.jpg';
+var img3 = '../img/mediums.jpg';
+var img4 = '../img/mosaique.jpg';
+var img5 = '../img/stary_Night.jpg';
 
 // Get random number
-var max = 3;
+var max = 6;
 var numRand = Math.floor( Math.random() * max );
 console.log(numRand);
 
