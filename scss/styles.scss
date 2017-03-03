@@ -10,49 +10,68 @@ $bg3: '../img/mediums.jpg';
 $bg4: '../img/mosaique.jpg';
 $bg5: '../img/stary_Night.jpg';
 
+.bg0{
+    background: url($bg0);
+}
+.bg1{
+    background: url($bg1);
+}
+.bg2{
+    background: url($bg2);
+}
+.bg3{
+    background: url($bg3);
+}
+.bg4{
+    background: url($bg4);
+}
+.bg5{
+    background: url($bg5);
+}
+
 // SVG FIRST FRAME
 svg{
     transform: scale(1);
     opacity: .2;
     
     transition:
-        opacity 1s,
+        opacity .3s,
 }
 // Google FIRST FRAMES
 #g {
     fill:blue;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 #fo {
     fill:red;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 #so {
     fill:yellow;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 #sg {
     fill:blue;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 #l {
     fill:green;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 #e {
     fill:red;
     transition:
-        fill .5s,
+        fill .3s,
 }
 
 // SVG LAST FRAME
@@ -86,33 +105,3 @@ svg:hover {
 }
 
 
-// First Frame
-img {
-    
-    opacity: .5;
-    transform: scale(1.2) rotate(0);
-    width: 100%;
-    
-    transition: transform .5s;
-}
-
-// Last Frame
-img:hover {
-    opacity: 1;
-    transform: scale(1.2) rotate(0deg);
-}
-
-// First Frame
-.line {
-     fill:none;
-     stroke:#8cff19;
-     stroke-width:30;
-     stroke-miterlimit:10;
-    
-    transition: stroke 1s;
-}
-
-// Last Frame
-.line:hover {
-    stroke: red;
-}
